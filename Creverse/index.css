@@ -1,0 +1,52 @@
+body {
+    background-color:#14142a;
+
+}
+#navbarSupportedContent{
+    
+}
+.btn-1 {
+    background-color: mediumslateblue;
+}
+.gallery-item .card{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+    transition: 0.3s ease-in-out;
+    padding: 1.5rem;
+}
+.gallery-item2 .card{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+    transition: 0.3s ease-in-out;
+    padding: 1.5rem;
+}
+
+.overlay {
+    background-color: rgba(96,125,138,0.13);
+    opacity: 0;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.4s ease-in-out;
+}
+.gallery-item:nth-of-type(1) .card{
+    background-image: url('../Project 1/assets/images/port1.jpg');
+}
+.gallery-item2:nth-of-type(1) .card{
+    background-image: url('../Project 1/assets/images/port2.jpg')
+}
+
+#footer > a{
+    background-color: white;
+    color: #5A4181;
+}
+
+.pagination > li > a
+{
+    background-color: #14142a;
+    color: #5A4181;
+    border: solid 1px #5A4181 !Important;
+}

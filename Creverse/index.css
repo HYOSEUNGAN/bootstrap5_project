@@ -50,3 +50,22 @@ body {
     color: #5A4181;
     border: solid 1px #5A4181 !Important;
 }
+
+@media(prefers-color-shceme:light){
+    body{
+        background-color: white;
+        color: black
+    }
+}
+
+@media(prefers-color-shceme:black){
+    body{
+        background-color: black;
+        color: white
+    }
+}
+
+.white-mode {
+    background-color: white;
+    color:black
+}

@@ -1,3 +1,52 @@
-body {
-    background-color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,400&display=swap');
+
+$brand-green: #0e2d16;
+
+// 구글폰트
+body, h1, h2, h3, h4, h5, h6, p, a, ul, li, button, input, textarea, select, span, small{
+    font-family: 'Roboto', sans-serif;
 }
+
+//마우스 가져다댔을때 끄림자효과
+.shadow-box{
+    transition: 0.5s ease-in;
+    &:hover{
+        box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px 0.5px rgba(0,0,0,0.2) ;
+    }
+}
+
+#header{
+    #navTop{
+        .socials{
+            a {
+                img{
+                    border-radius: 0.75rem;
+                }
+            }
+        }
+    }
+
+    #navPrimary{
+        background-color: $brand-green;
+
+        .offcanvas{
+            width:300px !important;
+
+            .mobile-menu{
+                a{
+                    font-size: 1.1rem !important;
+
+                    &.active{
+                        font-weight: bold !important;
+                        color: $brand-green;
+                    }
+                }
+            }
+            li{
+                padding-left: 0.75rem;
+                line-height: 1.75;
+            }
+        }
+    }
+}
+
